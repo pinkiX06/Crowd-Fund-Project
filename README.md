@@ -73,14 +73,6 @@ cd backend
 npm run seed
 ```
 
-This creates sample data with these login credentials:
-
-| Role  | Email                    | Password    |
-|-------|--------------------------|-------------|
-| Admin | admin@crowdreview.com    | admin123    |
-| User  | alice@example.com        | password123 |
-| User  | bob@example.com          | password123 |
-| User  | carol@example.com        | password123 |
 
 ### 5. Start the application
 
