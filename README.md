@@ -1,7 +1,7 @@
 
 # CrowdReview - Crowdsourced Review Platform
 
-A full-stack MERN (MongoDB, Express, React, Node.js) application for reviewing and rating local businesses.
+A full-stack MERN (MongoDB, Express,  Node.js) application for reviewing and rating local businesses.
 
 ## Features
 
