@@ -4,14 +4,14 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for reviewing a
 
 ## Features
 
-- **Browse Businesses** — Search and filter by category, city, or keyword
-- **User Authentication** — Register/login with JWT-based auth
-- **Submit Reviews** — Rate businesses on quality, service, and value (1-5 stars)
-- **Photo Uploads** — Attach up to 5 photos per review
-- **Review Approval Workflow** — Admin must approve/reject reviews before they go live
-- **Rating Aggregation** — Automatic average calculation across all approved reviews
-- **Admin Dashboard** — Stats overview, manage pending reviews, approve/reject with notes
-- **Responsive Design** — Works on desktop and mobile
+- **Browse Businesses** — Search and filter by category, city.
+- **User Authentication** — Register/login with JWT-based auth.
+- **Submit Reviews** — Rate businesses on quality, service, and value (1-5 stars).
+- **Photo Uploads** — Attach up to 5 photos per review.
+- **Review Approval Workflow** — Admin must approve/reject reviews before they go live.
+- **Rating Aggregation** — Automatic average calculation across all approved reviews.
+- **Admin Dashboard** — Stats overview, manage pending reviews, approve/reject with notes.
+- **Responsive Design** — Works on desktop and mobile.
 
 ## Project Structure
 
