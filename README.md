@@ -13,6 +13,33 @@ A full-stack MERN (MongoDB, Express, Node.js,React) application for reviewing an
 - **Rating Aggregation** — Automatic average calculation across all approved reviews.
 - **Admin Dashboard** — Stats overview, manage pending reviews, approve/reject with notes.
 - **Responsive Design** — Works on desktop and mobile.
+## ScreenShots
+<img width="1536" height="926" alt="image" src="https://github.com/user-attachments/assets/87233c74-8950-4e34-89cd-9c0666179ab6" />
+
+<img width="1656" height="915" alt="image" src="https://github.com/user-attachments/assets/f180ee5d-c6aa-47f4-a799-9fa8b286ef1e" />
+
+<img width="1746" height="982" alt="image" src="https://github.com/user-attachments/assets/418643f6-07c4-44d9-b997-5f49e2f95da2" />
+
+<img width="1509" height="927" alt="image" src="https://github.com/user-attachments/assets/a460c552-90e6-49da-ab89-c02272a82e2f" />
+
+<img width="1624" height="901" alt="image" src="https://github.com/user-attachments/assets/ffd9f5d5-7dc1-4646-b794-1b7e805d5133" />
+
+<img width="1527" height="468" alt="image" src="https://github.com/user-attachments/assets/3c734993-26fa-4a4d-8d65-ce8d7ce978d2" />
+
+<img width="1614" height="914" alt="image" src="https://github.com/user-attachments/assets/316af4db-3b54-4093-893a-f7b261375354" />
+
+<img width="1613" height="984" alt="image" src="https://github.com/user-attachments/assets/122ac556-5392-484f-9c49-9a4d77bb3c8d" />
+
+## Admin Interface
+<img width="1591" height="914" alt="image" src="https://github.com/user-attachments/assets/c8d34436-02f3-473a-8f17-3bd1ab5d9dc8" />
+
+<img width="1636" height="968" alt="image" src="https://github.com/user-attachments/assets/1c480853-a9d6-4335-a760-264dd5a94570" />
+
+<img width="1582" height="919" alt="image" src="https://github.com/user-attachments/assets/3bad8fdd-7fee-42d2-bc40-29b74cec2ef2" />
+
+<img width="1654" height="922" alt="image" src="https://github.com/user-attachments/assets/94f6177f-cb44-4aa6-b93a-85be633160a5" />
+
+<img width="1620" height="976" alt="image" src="https://github.com/user-attachments/assets/b9ef5621-9295-4969-b38e-f912bfabd8fe" />
 
 ## Project Structure
 
