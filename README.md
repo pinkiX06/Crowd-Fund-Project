@@ -28,7 +28,8 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for reviewing a
 │       ├── components/  # Navbar, Stars
 │       ├── context/     # AuthContext (React Context + JWT)
 │       ├── pages/       # Home, Businesses, BusinessDetail, Login, Register, MyReviews, AdminDashboard
-│       └── utils/       # Axios API client
+│       └── utils/      
+ # Axios API client
 ```
 
 ## Prerequisites
