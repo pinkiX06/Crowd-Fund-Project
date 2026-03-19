@@ -97,7 +97,7 @@ export default function BusinessDetail() {
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24 }}>
           <h2>Reviews</h2>
-          {user && !showForm && (
+          {user && user.role !== 'admin' && !showForm && (
             <button className="btn btn-primary" onClick={() => setShowForm(true)}>Write a Review</button>
           )}
         </div>

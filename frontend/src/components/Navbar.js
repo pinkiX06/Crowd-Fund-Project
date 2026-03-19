@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link to="/businesses">Businesses</Link>
           {user ? (
             <>
-              <Link to="/my-reviews">My Reviews</Link>
+              {user.role !== 'admin' && <Link to="/my-reviews">My Reviews</Link>}
               {user.role === 'admin' && <Link to="/admin">Admin</Link>}
               <span style={{ color: 'var(--text-light)', fontSize: '0.85rem' }}>Hi, {user.name}</span>
               <button className="btn btn-secondary btn-sm" onClick={handleLogout}>Logout</button>
