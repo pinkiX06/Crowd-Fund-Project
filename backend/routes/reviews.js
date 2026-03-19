@@ -77,14 +77,19 @@ router.post(
     body('business').notEmpty().withMessage('Business ID is required'),
     body('title').trim().notEmpty().withMessage('Title is required'),
     body('content').trim().notEmpty().withMessage('Review content is required'),
-    body('ratings.quality').isInt({ min: 1, max: 5 }),
-    body('ratings.service').isInt({ min: 1, max: 5 }),
-    body('ratings.value').isInt({ min: 1, max: 5 }),
   ],
   async (req, res) => {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) return res.status(400).json({ errors: errors.array() });
+
+      const quality = parseInt(req.body['ratings.quality'] || req.body.ratings?.quality);
+      const service = parseInt(req.body['ratings.service'] || req.body.ratings?.service);
+      const value = parseInt(req.body['ratings.value'] || req.body.ratings?.value);
+
+      if ([quality, service, value].some((v) => isNaN(v) || v < 1 || v > 5)) {
+        return res.status(400).json({ message: 'All ratings (quality, service, value) must be between 1 and 5' });
+      }
 
       const businessExists = await Business.findById(req.body.business);
       if (!businessExists) return res.status(404).json({ message: 'Business not found' });
@@ -99,11 +104,7 @@ router.post(
         user: req.user._id,
         title: req.body.title,
         content: req.body.content,
-        ratings: {
-          quality: parseInt(req.body.ratings.quality),
-          service: parseInt(req.body.ratings.service),
-          value: parseInt(req.body.ratings.value),
-        },
+        ratings: { quality, service, value },
         photos,
       });
 
